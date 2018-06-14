@@ -1,0 +1,42 @@
+.topo a:hover:first-of-type{
+  margin-left: 0%;
+  background-color: #6b6b6b;
+  }
+  
+  .topo a:hover:last-of-type{
+    margin-right: 0%;
+    background-color: #F4CE7A;
+    }
+
+    .topo a:hover:nth-child(2){
+      background-color:#F09B9C;
+      }
+
+      .topo a:hover:nth-child(3){
+        background-color:#7BC9AB;
+        }
+
+
+#produto:hover .fondo {
+  transform: scale(1.2);
+  transition:0.5s;
+}
+
+#cerrar:hover {
+  transition: 0.5s;
+  opacity: 1;
+ }
+
+ .carrinho:hover {
+  position: relative;
+  display: flex;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+footer a svg:hover {
+  width: 50px;
+  padding-left: 6px;
+  opacity: 0.5;
+}
+
